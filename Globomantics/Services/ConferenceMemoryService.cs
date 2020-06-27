@@ -14,13 +14,15 @@ namespace Globomantics.Services
         {
             conferences.Add(new ConferenceModel
             {
-                Id = 1, Name = "Pluralsight Conf", Location = "Stalt LakeCity"
+                Id = 1, Name = "Pluralsight Conf", Location = "Stalt LakeCity", AttendeeTotal=2345
             });
             conferences.Add(new ConferenceModel
             {
                 Id = 2,
                 Name = "GeekConf",
-                Location = "New York City"
+                Location = "New York City",
+                AttendeeTotal = 3144
+      
             });
         }
         public Task Add(ConferenceModel model)
