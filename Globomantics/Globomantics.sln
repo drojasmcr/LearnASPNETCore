@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics", "Globomantics.csproj", "{6B8DE1ED-7080-4A52-B29D-AF6568876D08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "..\Shared\Shared.csproj", "{AC570738-1C9D-4DF1-BFA5-1B38014CC571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B8DE1ED-7080-4A52-B29D-AF6568876D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8DE1ED-7080-4A52-B29D-AF6568876D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8DE1ED-7080-4A52-B29D-AF6568876D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8DE1ED-7080-4A52-B29D-AF6568876D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC570738-1C9D-4DF1-BFA5-1B38014CC571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC570738-1C9D-4DF1-BFA5-1B38014CC571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC570738-1C9D-4DF1-BFA5-1B38014CC571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC570738-1C9D-4DF1-BFA5-1B38014CC571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A2C5D7C-62ED-4B8C-AED8-8874E9CE87E4}
+	EndGlobalSection
+EndGlobal
